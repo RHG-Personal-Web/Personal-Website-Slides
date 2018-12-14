@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>  
+		<meta name="theme-color" content="#36393f">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Gun Control - Presentation</title>
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/night.css">
+		<!-- <link rel="stylesheet" href="../css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-opacity="0.06", data-background="https://images.unsplash.com/photo-1521726834835-4ff1624e69da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77e0da79c226562b6ec5e6292da4ed52&auto=format&fit=crop&&w=1058q=120"></section>
+				<section data-background-opacity="0.3", data-background="https://images.unsplash.com/photo-1521726834835-4ff1624e69da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77e0da79c226562b6ec5e6292da4ed52&auto=format&fit=crop&&w=1058q=120">
+					<h1>Gun Control</h1>
+					<p><small>with <a href="https://google.com">Jacob Morris</a> and <a href="https://google.com">Rusty Huskey</a></small></p>
+				</section>
+				<section>
+					<section data-background-opacity="0.07", data-background="https://images.unsplash.com/photo-1518487884151-ad2f25fb015c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66be15105d67445145f1488c2a8dba3a&auto=format&fit=crop&w=1058&q=120">
+						<h2>What Exactly Is Gun Control?</h2>
+					</section>
+					<section data-background-opacity="0.07", data-background="https://images.unsplash.com/photo-1482649671545-bc53dcf1ad7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1058&q=120">
+						<h2>Gun Control is..</h2>
+						<p class="fragment">The policies or set of laws that regulate the 
+							<span class="fragment fade-left">manufacture,</span>
+							<span class="fragment fade-left">sale,</span>
+							<span class="fragment fade-left">transfer,</span>
+							<span class="fragment fade-left">possession,</span>
+							<span class="fragment fade-left">modification</span>
+							<span class="fragment fade-left">or even the use of firearms by civilians.</span>
+						</p>
+					</section>
+				</section>
+				<section>
+					<section data-background-opacity="0.07", data-background="https://images.unsplash.com/photo-1510342506674-b0e06cc2c8d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1058&q=120">
+						<h2>What Are The Pros?</h2>
+					</section>
+					<section data-background-opacity="0.07", data-background="https://images.unsplash.com/photo-1536349156324-682aa16f0c26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1058&q=120">
+						<h2>Some Pros Are..</h2>
+						<p class="fragment">Soon</p>
+					</section>
+				</section>
+				<section>
+					<section data-background-opacity="0.07", data-background="">
+						<h2>What Are The Cons?</h2>
+					</section>
+					<section data-background-opacity="0.07", data-background="">
+						<h2>Some Cons Are..</h2>
+						<p class="fragment">Soon</p>
+					</section>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			//Reveal.configure({ 
+			//	controls: false,
+			//	controlsBackArrows: 'hidden',
+			//	history: false,
+			//	transition: 'zoom',
+			//	help: false,
+			//});
+			Reveal.initialize({
+				progress: false,
+				multiplex: {
+					secret: '15448012453427912157', // null so the clients do not have control of the master presentation
+					id: '646b9ab2dcd5bbdc', // id, obtained from socket.io server
+					url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of your socket.io server
+				},
+				dependencies: [
+					{ src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
+					{ src: '../plugin/multiplex/master.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
